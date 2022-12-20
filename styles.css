@@ -3,7 +3,7 @@ body {
     background-repeat: no-repeat;
     background-size: 100%;
 }
-
+/*mosquito*/
 .mosquito1 {
     width: 50px;
     height: 50px;
@@ -26,4 +26,28 @@ body {
 
 .ladoB {
     transform: scaleX(-1);
+}
+
+/*Configuração do Painel*/
+
+.painel {
+    position: absolute;
+    width: 190px;
+    padding: 10px;
+    left: 0px;
+    bottom: 0px;
+    border-top: solid 1px white;
+    background-color: white;
+    opacity: 0.7;
+}
+
+/*Configuração dos pontos de vida e cronômetro*/
+.vidas {
+    float: left;
+}
+
+.cronometro {
+    float: left;
+    font-size: 20px;
+    font-weight: bold;
 }
